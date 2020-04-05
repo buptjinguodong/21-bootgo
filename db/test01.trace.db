@@ -1,0 +1,3 @@
+2019-04-26 11:26:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE `AY_USER` ( `ID` VARCHAR (32) NOT NULL COMMENT '主键', `NAME` VARCHAR (10) DEFAULT NULL COMMENT '用户名', `PASSWORD` VARCHAR (32) DEFAULT NULL COMMENT '密码' ) INSERT[*] INTO `AY_USER` ('1', 'aaa', '123456') INSERT INTO `AY_USER` ('2', 'a拉', '123456') DROP TABLE IF EXISTS `AY_MOOD` "; SQL statement:
+CREATE TABLE `ay_user` ( `id` varchar (32) NOT NULL COMMENT '主键', `name` varchar (10) DEFAULT NULL COMMENT '用户名', `password` varchar (32) DEFAULT NULL COMMENT '密码' ) INSERT INTO `ay_user` ('1', 'aaa', '123456') INSERT INTO `ay_user` ('2', 'a拉', '123456') DROP TABLE IF EXISTS `ay_mood` [42000-199]
