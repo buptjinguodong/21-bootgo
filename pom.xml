@@ -90,9 +90,9 @@
             <artifactId>quartz</artifactId>
             <!-- If you are using spring boot
                 it's recommended to use versions properties specified in spring-boot-starter-parent,
-                in your case there is a property quartz.version which value is 2.3.0 for spring-boot 2.0.0.RELEASE,
+                in your case there is a property quartz.version which value is 2.3.2 for spring-boot 2.0.0.RELEASE,
                 so in maven it would look like: -->
-            <version>2.3.0</version>
+            <version>2.3.2</version>
         </dependency>
 
         <dependency>
